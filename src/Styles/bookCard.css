@@ -1,0 +1,79 @@
+.book-card {
+  height: 300px;
+}
+
+.main-container {
+  max-width: 1539px !important;
+}
+
+#root > div.main-container.container > div > div > div > div > div {
+  max-width: 280px;
+  margin-left: 43px;
+}
+
+h2 {
+  color: blueviolet;
+  color: rgb(181, 127, 232);
+  text-shadow: 2px 2px 4px black;
+}
+
+div.text-truncate.card-title.h5,
+div > p {
+  color: blueviolet;
+}
+#root
+  > div
+  > div.main-container.container
+  > div
+  > div
+  > div
+  > div.d-flex.flex-wrap.gap-2.mb-5.col-lg-8
+  > div
+  > div
+  > div {
+  background-color: rgba(211, 233, 237, 0.952);
+}
+
+#root > div.main-container.container {
+  max-width: 1216px;
+}
+
+#root
+  > div.main-container.container
+  > div
+  > div
+  > div
+  > div.d-flex.flex-wrap.gap-2.col-lg-8
+  > div
+  > div
+  > div
+  > div.d-flex.justify-content-center
+  > button:hover,
+#root
+  > div.main-container.container
+  > div
+  > div
+  > div
+  > div.d-flex.flex-wrap.gap-2.col-lg-8
+  > div
+  > div
+  > div
+  > div.d-flex.justify-content-center
+  > a
+  > button:hover {
+  background-image: linear-gradient(
+    90deg,
+    #fa8bff 0%,
+    #2bd2ff 50%,
+    #2bff88 75%,
+    #fa8bff 100%
+  );
+  color: black;
+  animation: slide 7s linear infinite;
+}
+
+@keyframes slide {
+  100% {
+    background-position: 20rem;
+  }
+}

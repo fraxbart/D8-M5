@@ -1,0 +1,47 @@
+.footer {
+  font-size: 14px;
+  color: red;
+  font-weight: bold;
+}
+
+#root > footer > div {
+  max-width: 1539px !important;
+}
+
+#root > footer > div > div > div {
+  margin-left: -113px;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: red;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  color: greenyellow;
+}
+
+#root > footer > div > div {
+  margin-left: 178px;
+}
+
+@media (max-width: 767px) {
+  .footer ul {
+    text-align: center;
+  }
+
+  .footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+}

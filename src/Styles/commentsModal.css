@@ -1,0 +1,11 @@
+#root
+  > div.main-container.container
+  > div
+  > div
+  > div
+  > div
+  > div.modal.show.comments-modal {
+  background-color: white;
+  max-width: 582px;
+  margin-left: 463px;
+}
